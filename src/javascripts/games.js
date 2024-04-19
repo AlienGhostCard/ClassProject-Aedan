@@ -1,0 +1,80 @@
+export const games = [
+    {
+        "id": 1,
+        "name": "Tetris",
+        "description": "Classic block stacking game",
+        "image": "https://images.unsplash.com/photo-1596998791568-386ef5297c2e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGV0cmlzfGVufDB8fDB8fHww",
+        "price": 10,
+        "inStock": 215,
+        "rating": 4.7,
+        "reviews": 70,
+        "reviewRating": 4.2,
+        "href": "tetris.html",
+        "console": "PS4, PS3, Xbox One, Xbox 360, PC, Nintendo Switch"
+    },
+    {
+        "id": 2,
+        "name": "Mario",
+        "description": "Classic Side Scroller",
+        "image": "https://images.unsplash.com/photo-1612404730960-5c71577fca11?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyaW98ZW58MHx8MHx8fDA%3D",
+        "price": 15,
+        "inStock": 62,
+        "rating": 4.3,
+        "reviews": 140,
+        "reviewRating": 4.8,
+        "href": "mario.html",
+        "console": "PS4, Xbox One, PC, Nintendo Switch, Nintendo 3DS"
+    },
+    {
+        "id": 3,
+        "name": "Pac Man",
+        "description": "Classic 2d arcade game",
+        "image": "https://images.unsplash.com/photo-1579309401389-a2476dddf3d4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFjJTIwbWFufGVufDB8fDB8fHww",
+        "price": 7,
+        "inStock": 40,
+        "rating": 4.5,
+        "reviews": 10,
+        "reviewRating": 4.9,
+        "href": "pacman.html",
+        "console": "PS4, Xbox One, PC, Nintendo Switch"
+    },
+    {
+        "id": 4,
+        "name": "Snake",
+        "description": "Classic 2d arcade game",
+        "image": "https://plus.unsplash.com/premium_photo-1675715924047-a9cf6c539d9b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c25ha2V8ZW58MHx8MHx8fDA%3D",
+        "price": 3,
+        "inStock": 53,
+        "rating": 3.2,
+        "reviews": 1093,
+        "reviewRating": 2.5,
+        "href": "snake.html",
+        "console": "PS4, Xbox One, PC, Nintendo Switch, Nintendo 3DS, Nintendo 64, Nintendo DS, Game Boy Advance"
+    },
+    {
+        "id": 5,
+        "name": "Pong",
+        "description": "Classic 2 player simple game",
+        "image": "https://images.unsplash.com/photo-1570572137089-1655117ad216?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9uZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "price": 2,
+        "inStock": 300,
+        "rating": 4.6,
+        "reviews": 10,
+        "reviewRating": 3.5,
+        "href": "pong.html",
+        "console": "PS4, Xbox One, PC, Nintendo Switch, Nintendo 3DS, Nintendo 64, Nintendo DS, Game Boy Advance, Game Boy Color, GameCube, Wii U, Wii"
+    },
+    {
+        "id": 6,
+        "name": "Tic-Tac-Toe",
+        "description": "Classic advanced complicated competitive game",
+        "image": "https://plus.unsplash.com/premium_photo-1673735396428-d51dc2a7a62d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGljJTIwdGFjJTIwdG9lfGVufDB8fDB8fHww",
+        "price": 35,
+        "inStock": 4,
+        "rating": 5.0,
+        "reviews": 100000,
+        "reviewRating": 5.0,
+        "href": "tictactoe.html",
+        "console": "PS4, Xbox One, PC, Nintendo Switch, Nintendo 3DS, Nintendo 64, Nintendo DS, Game Boy Advance, Game Boy Color, GameCube, Wii U, Wii, PlayStation 5, Xbox Series X/S"
+    }
+]

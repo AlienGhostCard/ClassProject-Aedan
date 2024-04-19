@@ -1,0 +1,99 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+
+body {
+    background-color: rgb(73, 73, 73);
+}
+
+.navbar {
+    background-color: rgb(73, 73, 73);
+}
+
+#titleppp {
+    color: gold;
+    font-weight: bold;
+}
+
+.jumbotron {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-radius: 15px;
+    background-color: #9b9b9b;
+}
+
+.article {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.d-nones {
+    display: none;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 130%;
+}
+
+.gamedis {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gamedis .col {
+    display: flex;
+}
+
+.flcon {
+    display: flex;
+}
+
+.flrow {
+    display: flex;
+    margin: auto;
+}
+
+.flcol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.res {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7c7c7;
+    border-radius: 10px;
+}
+
+a {
+    margin: 10px;
+}
+/* for small devices */
+
+@media (max-width: 575.98px) {
+    .flrow {
+       flex-direction: column; 
+    }
+}
+
+/* for medium */
+
+@media (min-width: 576px) and (max-width: 1050px) {
+    .flrow {
+       flex-direction: column; 
+    }
+}
